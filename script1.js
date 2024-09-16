@@ -25,6 +25,8 @@ class Person {
   person1.printDetails(); // Output: Name: Alice, Age: 25, Gender: Female
   console.log(person1.getDetails()); // Output: Alice, 25 years old, Female
   
+
+  // -------------------------------------------------------------------------------
 //   function constructor
 function PersonConstructor(name, age, gender) {
     this.name = name;
@@ -43,7 +45,10 @@ function PersonConstructor(name, age, gender) {
   // Using the method
   person2.printDetails(); // Output: Name: Bob, Age: 30, Gender: Male
 
-  
+
+
+
+   // ------------------------------------------------------------------------------- 
 //   object literals
 const person3 = {
     name: 'Charlie',
@@ -67,7 +72,8 @@ const person3 = {
   console.log(person3.getDetails()); // Output: Name: Charlie, Age: 28, Gender: Male
   
 
-
+  
+  // -------------------------------------------------------------------------------
 //   arrow funciton as non member
 
 const printPersonDetails = (person) => {
